@@ -5,7 +5,14 @@ class GameAccount
     private List<Game> _allGames = new List<Game>();
     public string UserName { get; set;}
     public int GamesCount { get; set; }
-    
+    public int CurrentRating { get; }
+
+    public GameAccount(string name)
+     {
+          this.UserName = name;
+          this.CurrentRating = 100;
+     }
+
     public class Game
     {
         public int Amount { get; }
@@ -22,31 +29,26 @@ class GameAccount
             GameIndex = gameIndex;
         }
     }
-    public int CurrentRating {
+    public int getCurrentRating {
         get
         {
-            int currentRating = 0;
+            int currentRating = 100;
             foreach (var item in _allGames)
             {
                 currentRating += item.Amount;
             }
-
             return currentRating;
         }
     }
 
-    public GameAccount(string name)
-    {
-      this.UserName = name;
-    }
-
+   
     public void WinGame(String opponentName, int rating)
     {
         if (rating <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(rating), "The rating price of game must be positive number");
         }
-        var ratingNumber = new Game(opponentName,"Win", rating,GamesCount);
+        var ratingNumber = new Game(opponentName,"Win",    rating,GamesCount);
         _allGames.Add(ratingNumber);
     }
     
@@ -57,7 +59,7 @@ class GameAccount
             throw new ArgumentOutOfRangeException(nameof(rating), "The rating price of game must be positive number");
         }
 
-        if (CurrentRating - rating < 0)
+        if (getCurrentRating - rating < 0)
         {
             throw new InvalidOperationException("This account doesn't have so much rating");
         }
@@ -69,7 +71,7 @@ class GameAccount
     public string GetStats()
     {
         var report = new System.Text.StringBuilder();
-        int rating = 0;
+        int rating = 100;
         int gameIndex = 0;
         report.AppendLine("Opponent       Amount       ResultOfGame    GameIndex ");
         report.AppendLine("---------------------------------------------------------");
@@ -88,12 +90,15 @@ class GameAccount
     {
         var tom = new GameAccount("Tom");
         tom.WinGame("Jorg",400);
-        tom.LoseGame("Tom",400);
+        tom.LoseGame("Charlz",400);
         tom.WinGame("Liz",50);
         tom.WinGame("Kate",450);
         tom.WinGame("Jon",100);
         
+        
        Console.WriteLine(tom.GetStats());
+       
+       Console.WriteLine("Current rating :  " + tom.getCurrentRating);
     } 
 
 }

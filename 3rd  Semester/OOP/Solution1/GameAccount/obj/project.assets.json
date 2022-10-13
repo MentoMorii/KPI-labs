@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Моя папка\\Унівєр\\Code\\3rd  Semester\\OOP\\Solution1\\GameAccount\\GameAccount.csproj",
+      "projectUniqueName": "G:\\Моя папка\\Унівєр\\KPI-labs\\3rd  Semester\\OOP\\Solution1\\GameAccount\\GameAccount.csproj",
       "projectName": "GameAccount",
-      "projectPath": "G:\\Моя папка\\Унівєр\\Code\\3rd  Semester\\OOP\\Solution1\\GameAccount\\GameAccount.csproj",
+      "projectPath": "G:\\Моя папка\\Унівєр\\KPI-labs\\3rd  Semester\\OOP\\Solution1\\GameAccount\\GameAccount.csproj",
       "packagesPath": "C:\\Users\\Vitalik\\.nuget\\packages\\",
-      "outputPath": "G:\\Моя папка\\Унівєр\\Code\\3rd  Semester\\OOP\\Solution1\\GameAccount\\obj\\",
+      "outputPath": "G:\\Моя папка\\Унівєр\\KPI-labs\\3rd  Semester\\OOP\\Solution1\\GameAccount\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vitalik\\AppData\\Roaming\\NuGet\\NuGet.Config",
