@@ -1,0 +1,30 @@
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.exe
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.deps.json
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.runtimeconfig.json
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.dll
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.pdb
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.csproj.AssemblyReference.cache
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.GeneratedMSBuildEditorConfig.editorconfig
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.AssemblyInfoInputs.cache
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.AssemblyInfo.cs
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.csproj.CoreCompileInputs.cache
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.dll
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\refint\GameAccount.dll
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.pdb
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.genruntimeconfig.cache
+G:\Моя папка\Унівєр\3 семестр\OOP\Lab 1\Solution1\GameAccount\obj\Debug\net6.0\ref\GameAccount.dll
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.exe
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.deps.json
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.runtimeconfig.json
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.dll
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\bin\Debug\net6.0\GameAccount.pdb
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.csproj.AssemblyReference.cache
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.GeneratedMSBuildEditorConfig.editorconfig
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.AssemblyInfoInputs.cache
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.AssemblyInfo.cs
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.csproj.CoreCompileInputs.cache
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.dll
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\refint\GameAccount.dll
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.pdb
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\GameAccount.genruntimeconfig.cache
+G:\Моя папка\Унівєр\Code\3rd  Semester\OOP\Solution1\GameAccount\obj\Debug\net6.0\ref\GameAccount.dll
