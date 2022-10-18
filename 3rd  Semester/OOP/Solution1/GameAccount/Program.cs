@@ -12,7 +12,6 @@ class GameAccount
           this.UserName = name;
           this.CurrentRating = 100;
      }
-
     public class Game
     {
         public int Amount { get; }
@@ -52,21 +51,23 @@ class GameAccount
         _allGames.Add(ratingNumber);
     }
     
+    
     public void LoseGame(String opponentName, int rating)
     {
         if (rating <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(rating), "The rating price of game must be positive number");
         }
-
+    
         if (getCurrentRating - rating < 0)
         {
             throw new InvalidOperationException("This account doesn't have so much rating");
         }
-
+    
         var ratingNumber = new Game(opponentName,"Lose", -rating,GamesCount);
         _allGames.Add(ratingNumber);
     }
+
 
     public string GetStats()
     {
@@ -88,6 +89,7 @@ class GameAccount
     
     static void Main(string[] args)
     {
+        var den = new GameAccount("Den");
         var tom = new GameAccount("Tom");
         tom.WinGame("Jorg",400);
         tom.LoseGame("Charlz",400);
@@ -95,10 +97,18 @@ class GameAccount
         tom.WinGame("Kate",450);
         tom.WinGame("Jon",100);
         
+        den.WinGame("Liz",200);
+        den.LoseGame("Tom", 300);
+        den.WinGame("Kate",400);
+        
         
        Console.WriteLine(tom.GetStats());
-       
        Console.WriteLine("Current rating :  " + tom.getCurrentRating);
+       
+       Console.WriteLine();
+       
+       Console.WriteLine(den.GetStats());
+       Console.WriteLine("Current rating :  " + den.getCurrentRating);
     } 
 
 }
